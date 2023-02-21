@@ -25,3 +25,21 @@ Funkce jazyka DAX: https://learn.microsoft.com/cs-cz/dax/dax-function-reference
 
 
 
+### Power Query
+- [Klávesové zkratky](https://learn.microsoft.com/cs-cz/power-query/keyboard-shortcuts)
+- [Použitý postup](https://learn.microsoft.com/cs-cz/power-query/applied-steps)
+- [Transformace dat](https://learn.microsoft.com/cs-cz/training/modules/clean-data-power-bi/2-shape-data)
+- [Přidání nového sloupce](https://support.microsoft.com/cs-cz/office/p%C5%99id%C3%A1n%C3%AD-vlastn%C3%ADho-sloupce-power-query-2dbb579a-915b-4ebd-b622-8e7f3d1d61a6)
+- [Kombinování tabulek](https://learn.microsoft.com/cs-cz/training/modules/clean-data-power-bi/5-combine-tables)
+
+### Power Pivot
+- [Změna interakcí](https://learn.microsoft.com/cs-cz/power-bi/create-reports/service-reports-visual-interactions)
+- [Popis vizuálu](https://learn.microsoft.com/cs-cz/power-bi/create-reports/desktop-tooltips?tabs=powerbi-desktop)
+- [Podrobná analýza](https://learn.microsoft.com/cs-cz/power-bi/create-reports/desktop-drillthrough)
+- [Relace](https://learn.microsoft.com/cs-cz/power-bi/transform-model/desktop-create-and-manage-relationships)
+- [Publikace datové sady](https://learn.microsoft.com/cs-cz/power-bi/create-reports/desktop-upload-desktop-files)
+- [Práce s mapovými podklady](https://learn.microsoft.com/cs-cz/power-bi/visuals/power-bi-map-tips-and-tricks)
+- [Sdílení reportu](https://learn.microsoft.com/cs-cz/power-bi/collaborate-share/service-share-dashboards)
+
+
+

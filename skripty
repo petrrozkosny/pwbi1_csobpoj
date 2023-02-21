@@ -101,3 +101,11 @@ data[srazky])
 
 return
 IFERROR(vypocet-1,BLANK())
+
+
+_________________________________________________-
+
+11 podminene formatovani = 
+
+IF(
+    [10 podil srazek mezirocne po mesicich] <= mezirocni_zmena[Hodnota mezirocni_zmena],"tomato")

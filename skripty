@@ -74,3 +74,30 @@ SUMX(
         -- predchozi rok
        max(data[rok]) - 1),
 data[srazky])
+
+
+
+__________________________________________________
+
+10 podil srazek mezirocne po mesicich = 
+VAR vypocet = 
+-- kumulativni suma srazek v danem roce
+
+SUMX(
+    FILTER(
+        ALL(data),
+    data[rok] = MAX(data[rok])
+    && data[mesic] <= MAX(data[mesic])),
+data[srazky])
+
+-- kumulativni suma srazek v predchozim roce
+/
+SUMX(
+    FILTER(
+        ALL(data),
+    data[rok] = MAX(data[rok]) - 1
+    && data[mesic] <= MAX(data[mesic])),
+data[srazky])
+
+return
+IFERROR(vypocet-1,BLANK())

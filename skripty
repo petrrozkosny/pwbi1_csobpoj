@@ -109,3 +109,13 @@ _________________________________________________-
 
 IF(
     [10 podil srazek mezirocne po mesicich] <= mezirocni_zmena[Hodnota mezirocni_zmena],"tomato")
+
+
+____________________________-
+
+dim_datumy = 
+
+ADDCOLUMNS(
+    SELECTCOLUMNS(
+    CALENDARAUTO(),"Datum",[Date]),
+"Kvartal",QUARTER([Datum]))
